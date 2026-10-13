@@ -467,6 +467,9 @@
   padding-top: 8px;
   font-variant-numeric: tabular-nums;
 }
+.exp-title {
+  flex: 1;
+}
 .exp-role {
   font-size: clamp(1.4rem, 2.4vw, 1.9rem);
   font-weight: 600;
@@ -1130,16 +1133,208 @@
 }
 
 @media (max-width: 640px) {
+  /* Hero: start under the nav instead of centring in the viewport */
+  .hero {
+    min-height: auto;
+    align-items: flex-start;
+    padding: 112px 0 48px;
+  }
+  .hero-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .hero-roles {
+    font-size: 14px;
+    row-gap: 2px;
+  }
+  .hero-sep {
+    display: none;
+  }
+  .hero-roles svg {
+    margin-left: 0;
+  }
+  .hero-name {
+    margin: 32px 0 28px;
+  }
   .hero-line-2 {
     justify-content: flex-start;
   }
   .hero-intro {
     font-size: 17px;
   }
+  .hero-ctas {
+    width: 100%;
+  }
+  .hero-ctas .btn {
+    flex: 1;
+    justify-content: center;
+  }
+  .scroll-hint {
+    display: none;
+  }
+  .orb {
+    filter: blur(60px);
+  }
+  .orb-1 {
+    width: 90vw;
+    height: 90vw;
+    top: -30vw;
+    right: -40vw;
+  }
+  .orb-2 {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  /* About */
+  .about-grid {
+    gap: 20px;
+  }
+  .about-text {
+    font-size: 1.42rem;
+    line-height: 1.28;
+  }
+  .about-languages {
+    margin-top: 28px;
+  }
+
+  /* What I do */
+  .expertise {
+    padding-top: 24px;
+  }
+  .expertise-grid {
+    margin-top: 36px;
+    gap: 12px;
+  }
+  .expertise-card {
+    padding: 24px;
+  }
+  .expertise-title {
+    font-size: 1.6rem;
+  }
+
+  /* Skills */
+  .skills {
+    padding-top: 24px;
+  }
+  .skills-head {
+    margin-bottom: 36px;
+  }
+
+  /* Experience: date on top, then title / company / location, no indents */
+  .exp-grid {
+    gap: 12px;
+  }
+  .exp-item {
+    padding: 28px 0;
+  }
+  .exp-head {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .exp-head .chip {
+    order: -1;
+  }
+  .exp-title {
+    flex-basis: 100%;
+  }
+  .exp-index {
+    display: none;
+  }
+  .exp-role {
+    font-size: 1.45rem;
+  }
+  .exp-company {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  .exp-location {
+    display: block;
+    margin: 4px 0 0;
+  }
+  .exp-highlights {
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  /* Projects */
+  .projects-grid {
+    margin-top: 36px;
+    gap: 40px;
+  }
+  .project-info {
+    padding-top: 16px;
+  }
+  .project-title {
+    font-size: 1.4rem;
+  }
+  .project-badge {
+    top: 12px;
+    left: 12px;
+    font-size: 12px;
+  }
+
+  /* Credentials */
+  .bento {
+    margin-top: 36px;
+    gap: 12px;
+  }
+  .card {
+    padding: 22px;
+  }
+  .card-icon {
+    margin-bottom: 16px;
+  }
+
+  /* Contact */
+  .contact-section {
+    padding: 24px 10px 10px;
+  }
+  .contact-row {
+    margin-top: 40px;
+    padding-bottom: 32px;
+  }
+  .contact-copy {
+    width: 100%;
+    justify-content: center;
+  }
+  .contact-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .contact-meta {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px 16px;
+    font-size: 14px;
+  }
+  .contact-meta .to-top {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+
+  /* Bigger tap targets */
+  .nav-logo {
+    padding: 8px 4px;
+  }
+  .contact-email,
+  .contact-phone {
+    padding-block: 8px;
+  }
+  .nav-logo {
+    min-width: 44px;
+  }
+  .to-top {
+    width: 48px;
+    height: 48px;
+  }
+
   .stats {
     grid-template-columns: 1fr;
     gap: 0;
-    margin-top: 56px;
+    margin-top: 40px;
   }
   .stat {
     display: flex;
@@ -1157,10 +1352,6 @@
   }
   .exp-desc {
     margin-left: 0;
-  }
-  .contact-meta {
-    flex-wrap: wrap;
-    gap: 14px;
   }
   .skill-pill {
     padding: 12px 22px 12px 14px;

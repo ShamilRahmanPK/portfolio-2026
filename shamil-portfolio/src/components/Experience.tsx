@@ -21,7 +21,7 @@ export default function Experience({ data }: { data: PortfolioData }) {
               <li className="exp-item">
                 <div className="exp-head">
                   <span className="exp-index">{String(i + 1).padStart(2, "0")}</span>
-                  <div style={{ flex: 1 }}>
+                  <div className="exp-title">
                     <h3 className="exp-role">{e.role}</h3>
                     <div className="exp-company">
                       {e.company}

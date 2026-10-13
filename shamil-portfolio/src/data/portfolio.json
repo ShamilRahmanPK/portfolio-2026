@@ -288,7 +288,7 @@
       "id": "2",
       "title": "Photosam",
       "description": "A full-stack social media web application built with the MERN stack.",
-      "image": "/images/socail.png",
+      "image": "/images/socail.webp",
       "link": "https://social-media-black-ten-20.vercel.app/",
       "tags": [
         "MERN",
@@ -300,7 +300,7 @@
       "id": "3",
       "title": "Media Player",
       "description": "Media player application with a sleek UI and advanced features.",
-      "image": "/images/player.png",
+      "image": "/images/player.webp",
       "link": "https://media-player-nine-gray.vercel.app/",
       "tags": [
         "React",
@@ -312,7 +312,7 @@
       "id": "4",
       "title": "Project Fair",
       "description": "One-stop destination for software development projects.",
-      "image": "/images/projectfair.png",
+      "image": "/images/projectfair.webp",
       "link": "https://project-fair-mocha.vercel.app/",
       "tags": [
         "MERN",
@@ -324,7 +324,7 @@
       "id": "5",
       "title": "Doc-Dashboard",
       "description": "Doctor dashboard with real-time medicine name suggestions and PDF generation.",
-      "image": "/images/doc-dashboard.png",
+      "image": "/images/doc-dashboard.webp",
       "link": "https://doc-dashboard-gamma.vercel.app/",
       "tags": [
         "React",
@@ -336,7 +336,7 @@
       "id": "8",
       "title": "Dashboard",
       "description": "Data visualization and analytics dashboard application.",
-      "image": "/images/dashoard.png",
+      "image": "/images/dashoard.webp",
       "link": "https://dashboard-psi-ivory.vercel.app/",
       "tags": [
         "React",
@@ -348,7 +348,7 @@
       "id": "9",
       "title": "Parallax Website",
       "description": "Simple parallax website with smooth scrolling and animations.",
-      "image": "/images/parallex.png",
+      "image": "/images/parallex.webp",
       "link": "https://parallax-website-22vy.vercel.app/",
       "tags": [
         "HTML",
@@ -360,7 +360,7 @@
       "id": "6",
       "title": "Chat App",
       "description": "Real-time messaging application developed with React and Socket.io.",
-      "image": "/images/chat.png",
+      "image": "/images/chat.webp",
       "link": "https://chat-app-liart-beta.vercel.app/",
       "hidden": true,
       "tags": [
@@ -373,7 +373,7 @@
       "id": "7",
       "title": "E-cart",
       "description": "Full-stack e-commerce application built with React and Node.js.",
-      "image": "/images/ecart.png",
+      "image": "/images/ecart.webp",
       "link": "https://e-cart-kappa-ivory.vercel.app/",
       "hidden": true,
       "tags": [
