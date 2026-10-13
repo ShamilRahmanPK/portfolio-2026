@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "name": "Shamil Rahman PK",
+    "tagline": "Full Stack Developer | Mobile App Developer",
+    "location": "Dubai, UAE",
+    "github": "https://github.com/ShamilRahmanPK",
+    "linkedin": "https://www.linkedin.com/in/shamil-rahman-p-k-8b6a6131a/",
+    "email": "shamilrahman7994@gmail.com",
+    "phone": "+971 52 149 5419",
+    "resumeUrl": "/Shamil_Rahman_PK.pdf",
+    "avatar": "/images/avatar.webp",
+    "avatarCutout": "/images/avatar-cutout.webp"
+  },
+  "about": "I'm a Full Stack Developer with 2+ years of experience building web and mobile products with React, Node.js, Flutter and React Native. I'm currently building the frontend of a multi-role fintech CRM and its Flutter mobile app at a CAT 1 licensed company in the UAE, turning complex needs such as role-based access, reports and live trading data into simple interfaces that clients find easy to use. On the backend I build REST APIs with Node.js, Express and JavaScript on MongoDB, from order and pricing logic to payment and OTP integrations.",
+  "expertise": [
+    {
+      "title": "Frontend",
+      "icon": "frontend",
+      "description": "Role-based dashboards, exportable reports and responsive interfaces that make complex data easy to work with.",
+      "tools": [
+        "React.js",
+        "TypeScript",
+        "Redux",
+        "Context API",
+        "Angular",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Backend",
+      "icon": "backend",
+      "description": "REST APIs and server logic with Node.js, Express and JavaScript: order intake, pricing and coupons, JWT auth, Telr payments and MSG91 OTP.",
+      "tools": [
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST APIs",
+        "JWT",
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "Mobile",
+      "icon": "mobile",
+      "description": "Cross-platform apps with Flutter and React Native, tested on TestFlight and published to the App Store.",
+      "tools": [
+        "Flutter",
+        "Riverpod",
+        "MVVM",
+        "React Native",
+        "Firebase",
+        "WebSocket"
+      ]
+    }
+  ],
+  "languages": [
+    "English",
+    "Malayalam",
+    "Hindi"
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Node.js",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    },
+    {
+      "name": "Express",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "TypeScript",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+      "name": "Flutter",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+    },
+    {
+      "name": "Dart",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
+    },
+    {
+      "name": "React Native",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg"
+    },
+    {
+      "name": "Angular",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+    },
+    {
+      "name": "Next.js",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+    },
+    {
+      "name": "Redux",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+    },
+    {
+      "name": "HTML5",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+      "name": "CSS3",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      "name": "MySQL",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+    },
+    {
+      "name": "Python",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+      "name": "Git",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+      "name": "GitLab",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg"
+    },
+    {
+      "name": "Postman",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+    },
+    {
+      "name": "Docker",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+    },
+    {
+      "name": "Vercel",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    },
+    {
+      "name": "Linux",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Engineer",
+      "company": "MENA Capital Financial Services L.L.C",
+      "location": "Dubai, UAE",
+      "period": "Mar 2026 – Present",
+      "description": "Building the frontend of the company's multi-role fintech CRM and its Flutter mobile app at a CAT 1 licensed firm.",
+      "highlights": [
+        "Own the React.js frontend of the internal CRM: six role-based dashboards used by sales, accounts, compliance, support and admin teams to monitor and support clients.",
+        "Deliver role-scoped reports exportable to Excel and PDF by time frame and report type.",
+        "Integrate the MetaTrader 5 (MT5) API and REST APIs for live trading data.",
+        "Implement secure authentication: RBAC, JWT access/refresh tokens, idle timeout and Axios interceptors.",
+        "Develop the CRM's Flutter app (Riverpod, MVVM); maintain and test TaskFlow (React Native).",
+        "Publish iOS apps to the App Store (private) and share Android APKs internally; test via TestFlight.",
+        "Run versioned releases through UAT, staging and production with the backend, DevOps and team lead."
+      ]
+    },
+    {
+      "role": "Web Developer",
+      "company": "Inekas Photography",
+      "location": "Sharjah, UAE",
+      "period": "Nov 2025 – Feb 2026",
+      "description": "Built the ordering platform end to end, from photo editing in the browser to payments.",
+      "highlights": [
+        "Built two React.js modules: photo upload with in-browser editing, and gender-wise order selection.",
+        "Built the Node.js/Express/MongoDB backend for order intake by size and material, pricing and coupons.",
+        "Integrated Telr payments (Apple Pay, Samsung Pay, cards) and MSG91 for OTP and order updates.",
+        "Implemented SEO, Google Ads and Meta Pixel tracking; worked directly with the client on requirements."
+      ]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Luminar Technolab",
+      "location": "Kochi, Kerala, India",
+      "period": "Jul 2024 – Aug 2025",
+      "description": "Built web apps across the MERN, MEAN and Python stacks.",
+      "highlights": [
+        "Built web apps on MERN, MEAN (Angular) and Python stacks with third-party API and AI integrations.",
+        "Improved frontend performance with lazy loading and Redux/Context API; deployed to Vercel and Render."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BCA, Artificial Intelligence",
+      "institution": "University of Calicut",
+      "year": "2021 – 2024"
+    },
+    {
+      "degree": "High School",
+      "institution": "GHSS Kunnakavu",
+      "year": "2021"
+    }
+  ],
+  "courses": [
+    {
+      "name": "MERN/MEAN Stack",
+      "provider": "Luminar Technolab",
+      "year": "2025"
+    },
+    {
+      "name": "Flutter Development",
+      "provider": "Ralfiz Technologies",
+      "year": "2024",
+      "note": "Learned Flutter and built a project for a school"
+    }
+  ],
+  "projects": [
+    {
+      "id": "forex-crm",
+      "title": "Forex Trading CRM",
+      "description": "Dashboards for User, Admin, Sales, Accounts, Dealing and Compliance roles, with RBAC, Excel/PDF reports and live MT5 trading data.",
+      "image": "/images/mena-crm.webp",
+      "link": "https://crm.menacapital.ae/login",
+      "badge": "Client portal · MENA Capital",
+      "preview": "dashboard",
+      "tags": [
+        "React",
+        "RBAC",
+        "MT5 API",
+        "Reports"
+      ]
+    },
+    {
+      "id": "crm-mobile",
+      "title": "CRM Mobile App",
+      "description": "Flutter companion app for the CRM with JWT auth and WebSocket messaging. Client module shipped, other roles next.",
+      "badge": "Private · MENA Capital",
+      "preview": "mobile",
+      "tags": [
+        "Flutter",
+        "Riverpod",
+        "MVVM",
+        "WebSocket"
+      ]
+    },
+    {
+      "id": "taskflow",
+      "title": "TaskFlow",
+      "description": "Team task app with admin/employee accounts, task deadlines, real-time chat and push alerts. Live on the App Store as MC Tasks.",
+      "link": "https://apps.apple.com/us/app/mc-tasks/id6767191271",
+      "badge": "App Store · MC Tasks",
+      "badgeIcon": "app",
+      "preview": "tasks",
+      "tags": [
+        "React Native",
+        "Firebase",
+        "Real-time chat"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Hopewell Hospitals",
+      "description": "A full-stack hospital doctor appointment web application built with the MERN stack.",
+      "image": "/images/hopewell.webp",
+      "link": "http://hopewellhospital.com/",
+      "tags": [
+        "MERN",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Photosam",
+      "description": "A full-stack social media web application built with the MERN stack.",
+      "image": "/images/socail.png",
+      "link": "https://social-media-black-ten-20.vercel.app/",
+      "tags": [
+        "MERN",
+        "Socket.io",
+        "React"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Media Player",
+      "description": "Media player application with a sleek UI and advanced features.",
+      "image": "/images/player.png",
+      "link": "https://media-player-nine-gray.vercel.app/",
+      "tags": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Project Fair",
+      "description": "One-stop destination for software development projects.",
+      "image": "/images/projectfair.png",
+      "link": "https://project-fair-mocha.vercel.app/",
+      "tags": [
+        "MERN",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Doc-Dashboard",
+      "description": "Doctor dashboard with real-time medicine name suggestions and PDF generation.",
+      "image": "/images/doc-dashboard.png",
+      "link": "https://doc-dashboard-gamma.vercel.app/",
+      "tags": [
+        "React",
+        "Node.js",
+        "PDF"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Dashboard",
+      "description": "Data visualization and analytics dashboard application.",
+      "image": "/images/dashoard.png",
+      "link": "https://dashboard-psi-ivory.vercel.app/",
+      "tags": [
+        "React",
+        "Charts",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Parallax Website",
+      "description": "Simple parallax website with smooth scrolling and animations.",
+      "image": "/images/parallex.png",
+      "link": "https://parallax-website-22vy.vercel.app/",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Chat App",
+      "description": "Real-time messaging application developed with React and Socket.io.",
+      "image": "/images/chat.png",
+      "link": "https://chat-app-liart-beta.vercel.app/",
+      "hidden": true,
+      "tags": [
+        "React",
+        "Socket.io",
+        "Node.js"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "E-cart",
+      "description": "Full-stack e-commerce application built with React and Node.js.",
+      "image": "/images/ecart.png",
+      "link": "https://e-cart-kappa-ivory.vercel.app/",
+      "hidden": true,
+      "tags": [
+        "MERN",
+        "E-commerce",
+        "React"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "name": "MERN/MEAN Stack Developer",
+      "issuer": "Luminar Technolab",
+      "year": "2025",
+      "link": "https://drive.google.com/file/d/17zTTAh9vPdgd9mCGXlwVadGel5BY_qcW/view?usp=drive_link"
+    },
+    {
+      "id": "2",
+      "name": "Flutter Developer",
+      "issuer": "Ralfiz Technologies",
+      "year": "2024",
+      "link": "https://drive.google.com/file/d/1_GIGXdhRaDavTqL5aQ9SjDClU9osSBgs/view?usp=drive_link"
+    }
+  ]
+}
