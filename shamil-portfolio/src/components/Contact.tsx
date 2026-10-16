@@ -18,10 +18,12 @@ export default function Contact({ data }: { data: PortfolioData }) {
   const ref = useRef<HTMLDivElement>(null);
   const [copied, setCopied] = useState(false);
 
-  // The card grows to full width and its corners soften as it scrolls in
+  // The card grows to full width and its corners soften as it scrolls in.
+  // Phones get a subtler version: an 80px radius on a 360px card looks like a pill.
+  const [narrow] = useState(() => window.matchMedia("(max-width: 640px)").matches);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "start 0.3"] });
-  const scale = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
-  const radius = useTransform(scrollYProgress, [0, 1], [80, 32]);
+  const scale = useTransform(scrollYProgress, [0, 1], [narrow ? 0.96 : 0.9, 1]);
+  const radius = useTransform(scrollYProgress, [0, 1], narrow ? [40, 24] : [80, 32]);
 
   const copy = async () => {
     try {

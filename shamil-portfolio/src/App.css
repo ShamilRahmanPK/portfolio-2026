@@ -943,6 +943,10 @@
   padding: 16px 0;
   border-top: 1px solid var(--line);
 }
+.timeline-list .chip {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
 .item-title {
   font-weight: 500;
 }
@@ -1132,6 +1136,17 @@
   }
 }
 
+/* Portrait tablets: a full-height hero leaves a tall empty gap under the content */
+@media (max-width: 960px) and (orientation: portrait) {
+  .hero {
+    min-height: auto;
+    padding: 140px 0 80px;
+  }
+  .scroll-hint {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   /* Hero: start under the nav instead of centring in the viewport */
   .hero {
@@ -1156,6 +1171,8 @@
   }
   .hero-name {
     margin: 32px 0 28px;
+    /* Scale with the screen so the second line ("Rahman PK" + photo) fills the width without overflowing */
+    font-size: 19.5vw;
   }
   .hero-line-2 {
     justify-content: flex-start;
@@ -1321,7 +1338,7 @@
   }
   .contact-email,
   .contact-phone {
-    padding-block: 8px;
+    padding-block: 10px;
   }
   .nav-logo {
     min-width: 44px;
